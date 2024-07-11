@@ -1,9 +1,9 @@
 use actix_web::{App, HttpServer};
 use actix_web::web::Data;
 use dotenv::dotenv;
-use my_blog_server_svelte::config::app_state::AppState;
-use my_blog_server_svelte::config::config::{get_config, init_pool};
-use my_blog_server_svelte::routers::router::init_routers;
+use my_blog_server_rust::config::app_state::AppState;
+use my_blog_server_rust::config::config::{get_config, init_pool};
+use my_blog_server_rust::routers::router::init_routers;
 
 #[actix_web::main]
 async fn main() -> std::io::Result<()> {
