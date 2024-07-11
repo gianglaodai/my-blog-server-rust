@@ -1002,7 +1002,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "my-blog-server-svelte"
+name = "my-blog-server-rust"
 version = "0.1.0"
 dependencies = [
  "actix-web",
